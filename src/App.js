@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Map from "./components/map"
+import {
+  BrowserRouter as Router,
+  Link,
+  Switch,
+  Route,
+  useParams
+} from "react-router-dom";
 
-function App() {
+// Params are placeholders in the URL that begin
+// with a colon, like the `:id` param defined in
+// the route in this example. A similar convention
+// is used for matching dynamic segments in other
+// popular web frameworks like Rails and Express.
+
+export default function App() {
+  let routes = [
+    '/agropuro/baderan',
+    '/ijen/paltuding',
+    '/kerinci/kerisik-tuo',
+    '/lawu/cemoro-kandang',
+    '/merapi/selo',
+    '/merbabu/selo',
+    '/merbabu/suwanting',
+    '/rinjani/sembalun',
+    '/rinjani/senaru',
+    '/semeru/raung-kalibaru',    
+    '/sindoro/kledung',    
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route path="/:mountainId/:trackId" component={Map}>
+          </Route>
+          <Route path="/">
+            <ul>
+              {
+                routes.map((route) => {
+                  return (
+                    <li key={route}>
+                      <Link to={route}>{route}</Link>
+                    </li>
+                  )
+                })
+              }
+            </ul>
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
-export default App;
