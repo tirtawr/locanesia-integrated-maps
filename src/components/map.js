@@ -27,17 +27,16 @@ class Map extends React.Component {
       center: centerPoint,
       zoom: this.state.zoom
     });
-    this._insertDataPoints(map);
+    this._insertMapLayers(map);
 
     const b = bbox(trackGeoJson);
     const boundingBox = [[b[0], b[1]], [b[2], b[3]]]
-    console.log(boundingBox)
     map.fitBounds(boundingBox, {
       padding: { top: 50, bottom: 50, left: 50, right: 50 }
     });
   }
   
-  _insertDataPoints(map) {
+  _insertMapLayers(map) {
     map.on('load', function () {
       map.addSource('route', {
         'type': 'geojson',
