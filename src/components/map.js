@@ -1,17 +1,16 @@
 import React from "react";
 import mapboxgl from 'mapbox-gl';
-import trackGeoJson from './../data/agropuro/baderan/track.json'
-import pointsGeoJson from './../data/agropuro/baderan/points.json'
 import { centroid, bbox } from '@turf/turf'
 import coords from '@mapbox/geojson-coords'
+import axios from 'axios'
 class Map extends React.Component {
   constructor(props) {
     super(props);
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2V0YXBhazIwMTkiLCJhIjoiY2szdzJhdGx3MDVpaDNpcGltZ3luNDUyMSJ9.lwsV4FsgU1SfbS6QRFlO_A';
     this.state = {
-      lng: 113.69315,
-      lat: -7.87643,
-      zoom: 10,
+      lng: 113.69315, // Initial state for mapbox
+      lat: -7.87643, // Initial state for mapbox
+      zoom: 10, // Initial state for mapbox
     };
   }
 
@@ -19,24 +18,30 @@ class Map extends React.Component {
     let { mountainId, trackId } = this.props.match.params
     this.setState({ mountainId, trackId })
 
-    const centerPoint = coords(centroid(trackGeoJson))[0];
+    const trackRequest = axios.get(`/map-data/${mountainId}/${trackId}/track.json`)
+    const pointsRequest = axios.get(`/map-data/${mountainId}/${trackId}/points.json`)
+    axios.all([trackRequest, pointsRequest]).then(axios.spread((...responses) => {
+      const trackGeoJson = responses[0].data
+      const pointsGeoJson = responses[1].data
 
-    const map = new mapboxgl.Map({
-      container: this.mapContainer,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: centerPoint,
-      zoom: this.state.zoom
-    });
-    this._insertMapLayers(map);
+      const centerPoint = coords(centroid(trackGeoJson))[0];
 
-    const b = bbox(trackGeoJson);
-    const boundingBox = [[b[0], b[1]], [b[2], b[3]]]
-    map.fitBounds(boundingBox, {
-      padding: { top: 50, bottom: 50, left: 50, right: 50 }
-    });
+      const map = new mapboxgl.Map({
+        container: this.mapContainer,
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: centerPoint,
+        zoom: this.state.zoom
+      });
+      this._insertMapLayers(map, trackGeoJson, pointsGeoJson)
+      this._centerMapOnTrack(map, trackGeoJson)
+    })).catch(errors => {
+      console.error(errors)
+    })
+
+
   }
   
-  _insertMapLayers(map) {
+  _insertMapLayers(map, trackGeoJson, pointsGeoJson) {
     map.on('load', function () {
       map.addSource('route', {
         'type': 'geojson',
@@ -80,6 +85,14 @@ class Map extends React.Component {
         maxWidth: 240,
         unit: 'metric'
       }));
+    });
+  }
+
+  _centerMapOnTrack(map, trackGeoJson) {
+    const b = bbox(trackGeoJson);
+    const boundingBox = [[b[0], b[1]], [b[2], b[3]]]
+    map.fitBounds(boundingBox, {
+      padding: { top: 50, bottom: 50, left: 50, right: 50 }
     });
   }
 

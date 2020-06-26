@@ -4,8 +4,7 @@ import {
   BrowserRouter as Router,
   Link,
   Switch,
-  Route,
-  useParams
+  Route
 } from "react-router-dom";
 
 // Params are placeholders in the URL that begin
