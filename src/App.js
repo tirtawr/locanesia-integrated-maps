@@ -28,10 +28,10 @@ export default function App() {
     '/sindoro/kledung',    
   ]
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path={`${process.env.PUBLIC_URL}/:mountainId/:trackId`} component={Map}/>
-          <Route path={`${process.env.PUBLIC_URL}/`}>
+          <Route path='/:mountainId/:trackId' component={Map}/>
+          <Route path='/'>
             <ul>
               {
                 routes.map((route) => {
