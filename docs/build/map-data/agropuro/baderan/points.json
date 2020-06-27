@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.67361,
+          -7.88982
+        ]
+      },
+      "properties": {
+        "title": "Air Pancuran",
+        "ele": "1068.0",
+        "icon": "water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.57007,
+          -7.96355
+        ]
+      },
+      "properties": {
+        "title": "Savana Lonceng",
+        "ele": "2973.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5674,
+          -7.96689
+        ]
+      },
+      "properties": {
+        "title": "Arca",
+        "ele": "3046.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.56653,
+          -7.96431
+        ]
+      },
+      "properties": {
+        "title": "Puncak Argopuro",
+        "ele": "3069.0",
+        "icon": "mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.55625,
+          -7.97681
+        ]
+      },
+      "properties": {
+        "title": "Cemara Lima",
+        "ele": "2469.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.62168,
+          -7.96972
+        ]
+      },
+      "properties": {
+        "title": "Cikasur",
+        "ele": "2216.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.58851,
+          -7.97366
+        ]
+      },
+      "properties": {
+        "title": "Cisentor",
+        "ele": "2461.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.48996,
+          -7.96094
+        ]
+      },
+      "properties": {
+        "title": "Kantor Polisi",
+        "ele": "995.0",
+        "icon": "office"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.58466,
+          -7.95853
+        ]
+      },
+      "properties": {
+        "title": "Rawa Embek",
+        "ele": "2748.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.57265,
+          -7.96547
+        ]
+      },
+      "properties": {
+        "title": "Rengganis",
+        "ele": "3008.0",
+        "icon": "campsite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.620365,
+          -7.970691
+        ]
+      },
+      "properties": {
+        "title": "Sungai Kolbu Cikas",
+        "ele": "2216.0",
+        "icon": "attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.67059,
+          -7.89379
+        ]
+      },
+      "properties": {
+        "title": "Sumber Air",
+        "ele": "1160.0",
+        "icon": "water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.56725,
+          -7.96885
+        ]
+      },
+      "properties": {
+        "title": "Sumber Air",
+        "ele": "2907.0",
+        "icon": "water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.53157,
+          -7.978
+        ]
+      },
+      "properties": {
+        "title": "Danau Taman Hidup",
+        "ele": "1964.0",
+        "icon": "campsite"
+      }
+    }
+  ]
+}

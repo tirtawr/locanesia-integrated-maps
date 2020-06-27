@@ -2,6 +2,7 @@
   "name": "locanesia-integrated-maps",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tirtawr.github.io/locanesia-integrated-maps",
   "dependencies": {
     "@mapbox/geojson-coords": "0.0.0",
     "@testing-library/jest-dom": "^4.2.4",
