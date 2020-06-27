@@ -30,9 +30,8 @@ export default function App() {
   return (
     <Router>
         <Switch>
-          <Route path="/:mountainId/:trackId" component={Map}>
-          </Route>
-          <Route path="/">
+          <Route path={`${process.env.PUBLIC_URL}/:mountainId/:trackId`} component={Map}/>
+          <Route path={`${process.env.PUBLIC_URL}/`}>
             <ul>
               {
                 routes.map((route) => {

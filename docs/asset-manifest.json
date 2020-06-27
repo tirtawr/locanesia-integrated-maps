@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/locanesia-integrated-maps/static/css/main.54de3cc5.chunk.css",
-    "main.js": "/locanesia-integrated-maps/static/js/main.de23c1f7.chunk.js",
-    "main.js.map": "/locanesia-integrated-maps/static/js/main.de23c1f7.chunk.js.map",
+    "main.js": "/locanesia-integrated-maps/static/js/main.a52c5d30.chunk.js",
+    "main.js.map": "/locanesia-integrated-maps/static/js/main.a52c5d30.chunk.js.map",
     "runtime-main.js": "/locanesia-integrated-maps/static/js/runtime-main.d7fe874e.js",
     "runtime-main.js.map": "/locanesia-integrated-maps/static/js/runtime-main.d7fe874e.js.map",
     "static/js/2.72ab2384.chunk.js": "/locanesia-integrated-maps/static/js/2.72ab2384.chunk.js",
     "static/js/2.72ab2384.chunk.js.map": "/locanesia-integrated-maps/static/js/2.72ab2384.chunk.js.map",
     "index.html": "/locanesia-integrated-maps/index.html",
-    "precache-manifest.7c5c3e796fb687620b3cc55c58afe95e.js": "/locanesia-integrated-maps/precache-manifest.7c5c3e796fb687620b3cc55c58afe95e.js",
+    "precache-manifest.947c459e0cf052c56a43ee477b92416c.js": "/locanesia-integrated-maps/precache-manifest.947c459e0cf052c56a43ee477b92416c.js",
     "service-worker.js": "/locanesia-integrated-maps/service-worker.js",
     "static/css/main.54de3cc5.chunk.css.map": "/locanesia-integrated-maps/static/css/main.54de3cc5.chunk.css.map",
     "static/js/2.72ab2384.chunk.js.LICENSE.txt": "/locanesia-integrated-maps/static/js/2.72ab2384.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d7fe874e.js",
     "static/js/2.72ab2384.chunk.js",
     "static/css/main.54de3cc5.chunk.css",
-    "static/js/main.de23c1f7.chunk.js"
+    "static/js/main.a52c5d30.chunk.js"
   ]
 }
