@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/locanesia-integrated-maps/precache-manifest.808c643ad1a65f628365db0fa98cc5b2.js"
+  "/locanesia-integrated-maps/precache-manifest.b22472b3e003024a51dad6d09222ccf3.js"
 );
 
 self.addEventListener('message', (event) => {

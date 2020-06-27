@@ -28,7 +28,7 @@ export default function App() {
     '/sindoro/kledung',    
   ]
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <Switch>
           <Route path='/:mountainId/:trackId' component={Map}/>
           <Route path='/'>
