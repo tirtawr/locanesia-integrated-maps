@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "./components/map"
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Link,
   Switch,
   Route
