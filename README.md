@@ -1,7 +1,27 @@
 # locanesia-integrated-maps
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Development
+
+### Installing Locally
+```
+  yarn install
+```
+
+### Running Locally
+```
+  yarn start
+```
+
+### Building App
+```
+  yarn build && mv build docs
+```
+
+### Deployment
+We're using github pages currently, so simply push and anything in the `/docs` directory will be served.
+
+## Available Scripts (from Create React App)
 
 In the project directory, you can run:
 
