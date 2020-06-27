@@ -15,8 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Building App
 ```
-  yarn build && mv build docs
+  yarn build
 ```
+Note: built package will be located at `/docs`
 
 ### Deployment
 We're using github pages currently, so simply push and anything in the `/docs` directory will be served.
