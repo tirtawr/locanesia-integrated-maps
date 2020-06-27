@@ -18,8 +18,8 @@ class Map extends React.Component {
     let { mountainId, trackId } = this.props.match.params
     this.setState({ mountainId, trackId })
 
-    const trackRequest = axios.get(`/map-data/${mountainId}/${trackId}/track.json`)
-    const pointsRequest = axios.get(`/map-data/${mountainId}/${trackId}/points.json`)
+    const trackRequest = axios.get(process.env.PUBLIC_URL + `/map-data/${mountainId}/${trackId}/track.json`)
+    const pointsRequest = axios.get(process.env.PUBLIC_URL + `/map-data/${mountainId}/${trackId}/points.json`)
     axios.all([trackRequest, pointsRequest]).then(axios.spread((...responses) => {
       const trackGeoJson = responses[0].data
       const pointsGeoJson = responses[1].data
