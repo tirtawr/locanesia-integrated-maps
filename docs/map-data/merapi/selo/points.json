@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.959592,
+                    -7.222301
+                ]
+            },
+            "properties": {
+                "title": "Test Point Vita",
+                "icon": "car"
+            }
+        }
+    ]
+}

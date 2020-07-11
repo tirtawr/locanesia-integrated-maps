@@ -1,0 +1,105 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.46801,
+					-7.49874
+				]
+			},
+			"properties": {
+				"title": "Desa Selo",
+				"icon": "car"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.45545,
+					-7.47315
+				]
+			},
+			"properties": {
+				"title": "Pos 1",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.45103,
+					-7.46843
+				]
+			},
+			"properties": {
+				"title": "Pos 2 Simpang Macan",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.4460716,
+					-7.4680494
+				]
+			},
+			"properties": {
+				"title": "Pos 3 Batu Tulis",
+				"ele": "2577.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.44531,
+					-7.46516
+				]
+			},
+			"properties": {
+				"title": "Pos 4 Sabana Satu",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.44364,
+					-7.46048
+				]
+			},
+			"properties": {
+				"title": "Pos 5 Sabana Dua",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					110.43963,
+					-7.45413
+				]
+			},
+			"properties": {
+				"title": "Puncak Gunung Merbabu",
+				"icon": "mountain",
+				"ele": "3120.0"
+			}
+		}
+	]
+}

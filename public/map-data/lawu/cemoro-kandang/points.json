@@ -1,0 +1,97 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.186839,
+                    -7.663294
+                ]
+            },
+            "properties": {
+                "title": "Pos Masuk Basecamp",
+                "icon": "car"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.187671,
+                    -7.654885
+                ]
+            },
+            "properties": {
+                "title": "Air Terjun",
+                "icon": "attraction"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.188853,
+                    -7.646003
+                ]
+            },
+            "properties": {
+                "title": "Pos 1 Taman Sari Bawah",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.18792,
+                    -7.64209
+                ]
+            },
+            "properties": {
+                "title": "Pos 2 Taman Sari Atas",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.184487,
+                    -7.634986
+                ]
+            },
+            "properties": {
+                "title": "Pos 3 Penggik",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.186546,
+                    -7.63135
+                ]
+            },
+            "properties": {
+                "title": "Pos 4 Cokro Suryo",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.194279,
+                    -7.627024
+                ]
+            },
+            "properties": {
+                "title": "Puncak Lawu",
+                "icon": "attraction"
+            }
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0013267, -8.2038159]
+			},
+			"properties": {
+				"title": "Pos 1 Sunarya",
+				"ele": "910.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0197258, -8.1741158]
+			},
+			"properties": {
+				"title": "Pos 2",
+				"ele": "1466.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0262124, -8.1657608]
+			},
+			"properties": {
+				"title": "Pos 3",
+				"ele": "1644.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0311787, -8.1551008]
+			},
+			"properties": {
+				"title": "Pos 4",
+				"ele": "1820.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0328801, -8.1498067]
+			},
+			"properties": {
+				"title": "Pos 5",
+				"ele": "2049.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0345578, -8.147017]
+			},
+			"properties": {
+				"title": "Pos 6",
+				"ele": "2222.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0373905, -8.1402372]
+			},
+			"properties": {
+				"title": "Pos 7",
+				"ele": "2554.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0418144, -8.1366123]
+			},
+			"properties": {
+				"title": "Pos 8",
+				"ele": "2858.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0426578, -8.1335412]
+			},
+			"properties": {
+				"title": "Pos 9",
+				"ele": "3059.0",
+				"icon": "campsite"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.0466298, -8.1255842]
+			},
+			"properties": {
+				"title": "Puncak Gunung Raung",
+				"ele": "3255.0",
+				"icon": "mountain"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.9854691, -8.2528696]
+			},
+			"properties": {
+				"title": "Desa Wonorejo",
+				"ele": "550.0",
+				"icon":"campsite"
+			}
+		}
+	]
+}

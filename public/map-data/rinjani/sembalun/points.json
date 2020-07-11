@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.51422,
+                    -8.358
+                ]
+            },
+            "properties": {
+                "title": "Desa Sembalun",
+                "icon": "car"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.49957,
+                    -8.36753                    
+                ]
+            },
+            "properties": {
+                "title": "Pos 1 Pemantuan",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.4678,
+                    -8.3644                    
+                ]
+            },
+            "properties": {
+                "title": "Pos 2 Tengengean",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.45795,
+                    -8.37587                    
+                ]
+            },
+            "properties": {
+                "title": "Pos 3 Pada Balong",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.44235,
+                    -8.39002                    
+                ]
+            },
+            "properties": {
+                "title": "Kawah Sembalun",
+                "icon": "attraction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.4585,
+                    -8.41139                    
+                ]
+            },
+            "properties": {
+                "title": "Puncak Rinjani",
+                "icon": "mountain"
+            }
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.94393,
+                    -8.01879
+                ]
+            },
+            "properties": {
+                "title": "Ranu Pane",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.93355,
+                    -8.02628
+                ]
+            },
+            "properties": {
+                "title": "Landengan Dowo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.93742,
+                    -8.0304
+                ]
+            },
+            "properties": {
+                "title": "Watu Rejeng",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91866,
+                    -8.04688
+                ]
+            },
+            "properties": {
+                "title": "Ranu Kumbolo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91686,
+                    -8.05194
+                ]
+            },
+            "properties": {
+                "title": "Tanjakan Cinta",
+                "icon": "attraction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.9178,
+                    -8.06201
+                ]
+            },
+            "properties": {
+                "title": "Oro Oro Ombo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91784,
+                    -8.06251
+                ]
+            },
+            "properties": {
+                "title": "Taman Bunga Lavender",
+                "icon": "attraction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91647,
+                    -8.06533
+                ]
+            },
+            "properties": {
+                "title": "Cemoro Kandang",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.92063,
+                    -8.09004
+                ]
+            },
+            "properties": {
+                "title": "Jambangan",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91548,
+                    -8.07054
+                ]
+            },
+            "properties": {
+                "title": "Kalimati",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91958,
+                    -8.09404
+                ]
+            },
+            "properties": {
+                "title": "Arcopodo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.92198,
+                    -8.10778
+                ]
+            },
+            "properties": {
+                "title": "Puncak Mahameru",
+                "icon": "mountain"
+            }
+        }
+    ]
+}

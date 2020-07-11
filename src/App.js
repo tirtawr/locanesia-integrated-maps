@@ -22,10 +22,11 @@ export default function App() {
     '/merapi/selo',
     '/merbabu/selo',
     '/merbabu/suwanting',
+    '/raung/kalibaru',
     '/rinjani/sembalun',
     '/rinjani/senaru',
-    '/semeru/raung-kalibaru',    
-    '/sindoro/kledung',    
+    '/semeru/semeru',
+    '/sindoro/kledung',
   ]
   return (
     <Router>

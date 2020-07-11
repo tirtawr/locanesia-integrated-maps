@@ -1,0 +1,71 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.264129,
+                    -1.696328
+                ]
+            },
+            "properties": {
+                "title": "Puncak Kerinci",
+                "icon": "attraction"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.267256,
+                    -1.705483
+                ]
+            },
+            "properties": {
+                "title": "Pos 3",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.267941,
+                    -1.708972
+                ]
+            },
+            "properties": {
+                "title": "Pos 2",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.263637,
+                    -1.7200006
+                ]
+            },
+            "properties": {
+                "title": "Pos 1",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.268697,
+                    -1.767419
+                ]
+            },
+            "properties": {
+                "title": "Pos Masuk Basecamp",
+                "icon": "car"
+            }
+        }        
+    ]
+}
