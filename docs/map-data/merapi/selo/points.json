@@ -6,13 +6,83 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    109.959592,
-                    -7.222301
+                    110.45107,
+                    -7.526301
                 ]
             },
             "properties": {
-                "title": "Test Point Vita",
-                "icon": "car"
+                "title": "Pos 1",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.451743,
+                    -7.532142
+                ]
+            },
+            "properties": {
+                "title": "Pos 2",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.44970,
+                    -7.534590
+                ]
+            },
+            "properties": {
+                "title": "Watu Boyo",
+                "icon": "attraction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.450668,
+                    -7.533806
+                ]
+            },
+            "properties": {
+                "title": "Watu Gajah",
+                "icon": "attraction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.459177,
+                    -7.535354
+                ]
+            },
+            "properties": {
+                "title": "Pos 3 Pasar Bubrah",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.446960,
+                    -7.539710
+                ]
+            },
+            "properties": {
+                "title": "Puncak Merapi",
+                "icon": "attraction"
             }
         }
     ]

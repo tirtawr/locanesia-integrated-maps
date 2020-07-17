@@ -6,40 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40108,
-                    -8.30326
+                    110.40069,
+                    -7.47378
                 ]
             },
             "properties": {
-                "title": "Desa Senaru",
-                "icon": "car"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.40285,
-                    -8.31681
-                ]
-            },
-            "properties": {
-                "title": "Jebak Gawah",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.40181,
-                    -8.32379
-                ]
-            },
-            "properties": {
-                "title": "Pos 1 Senaru",
+                "title": "Pos Masuk Basecamp",
                 "icon": "campsite"
             }
         },
@@ -48,12 +20,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40223,
-                    -8.33716
+                    110.41908,
+                    -7.46653
                 ]
             },
             "properties": {
-                "title": "Pos 1 Extra",
+                "title": "Pos 2",
                 "icon": "campsite"
             }
         },
@@ -62,12 +34,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.39647,
-                    -8.34642
+                    110.44069,
+                    -7.45375
                 ]
             },
             "properties": {
-                "title": "Pos 2 Senaru",
+                "title": "Kenteng Songo",
                 "icon": "campsite"
             }
         },
@@ -76,55 +48,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.41873,
-                    -8.39144
+                    110.439892,
+                    -7.454425
                 ]
             },
             "properties": {
-                "title": "Pos 3 Mondokan Lokak",
+                "title": "Puncak Merbabu",
                 "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.44083,
-                    -8.38946
-                ]
-            },
-            "properties": {
-                "title": "Cemara Lima",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.44235,
-                    -8.39002
-                ]
-            },
-            "properties": {
-                "title": "Kawah Senaru",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.4585,
-                    -8.41139
-                ]
-            },
-            "properties": {
-                "title": "Puncak Rinjani",
-                "icon": "mountain"
             }
         }
     ]
