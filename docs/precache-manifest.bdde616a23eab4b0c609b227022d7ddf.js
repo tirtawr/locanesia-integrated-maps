@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe16ed0eeeff6a972aeef430bd9710a4",
+    "revision": "73ea6cd42e43cd3bf63ee6b3c039689e",
     "url": "/locanesia-integrated-maps/index.html"
   },
   {
-    "revision": "af148676f5f6110719eb",
+    "revision": "4769453d868bc2e5c51c",
     "url": "/locanesia-integrated-maps/static/css/main.54de3cc5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/locanesia-integrated-maps/static/js/2.49020a74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af148676f5f6110719eb",
-    "url": "/locanesia-integrated-maps/static/js/main.e6e8b191.chunk.js"
+    "revision": "4769453d868bc2e5c51c",
+    "url": "/locanesia-integrated-maps/static/js/main.d3b6a10c.chunk.js"
   },
   {
     "revision": "464912dc76972c6c538a",
