@@ -16,9 +16,11 @@ import {
 export default function App() {
   let routes = [
     '/agropuro/baderan',
+    '/gede/putri',
     '/ijen/paltuding',
     '/kerinci/kerisik-tuo',
     '/lawu/cemoro-kandang',
+    '/lawu/cemoro-sewu', // inaccurate map data
     '/merapi/selo',
     '/merbabu/selo',
     '/merbabu/suwanting',
@@ -27,6 +29,7 @@ export default function App() {
     '/rinjani/senaru',
     '/semeru/semeru',
     '/sindoro/kledung',
+    '/tambora/pancasila',
   ]
   return (
     <Router>
